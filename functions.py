@@ -1,6 +1,4 @@
 #! /usr/bin/python3
 
-from functions import greet
-
-name = "Student"
-print(greet(name))
+def greet(name):
+    return "Hello, " + name
